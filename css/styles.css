@@ -1,0 +1,37 @@
+body {
+    background-color:  hsl(220 20% 90%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.2em;
+}
+
+
+.all-recipes {
+    font-size: 1.2em;
+}
+
+
+figcaption {
+    font-size: .8em;
+}
+
+
+
+em {
+    font-style:normal
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+li {
+    margin: 3px;
+}
+
+p { 
+    margin-left:40px;
+}
