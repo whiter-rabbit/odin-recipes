@@ -1,0 +1,51 @@
+html {
+   background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Odin_riding_Sleipnir.jpg/464px-Odin_riding_Sleipnir.jpg?20061220184018);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: bottom;
+   background-size: 590px;
+}
+
+
+.odin-background {
+    background-image: linear-gradient(rgba(224, 228, 235, 1)30%, rgba(224, 228, 235, 0)100%);
+    width: 590px;
+    height: 600px;
+    margin-left: -20px;
+    position: fixed;
+    top: 0px;
+
+}
+
+footer p {
+    color: black;
+    background: rgba(255, 255, 255, .6);
+    font-size: .8em;
+    position: fixed;
+    bottom: 5px;
+    width: 500px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.all-recipes li {
+    list-style-image: url("images/star.png");
+    list-style: none;
+    margin-left: 40px;
+    
+}
+
+.all-recipes a {
+text-decoration: none;
+color:rgb(17, 89, 110);
+
+    
+    
+}
+
+
+a:hover {
+    color: rgb(110, 27, 27);
+}
