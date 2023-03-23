@@ -8,9 +8,9 @@ html {
 
 
 .odin-background {
-    background-image: linear-gradient(rgba(224, 228, 235, 1)30%, rgba(224, 228, 235, 0)100%);
+    background-image: linear-gradient(rgba(224, 228, 235, 1)50%, rgba(224, 228, 235, 0)100%);
     width: 590px;
-    height: 600px;
+    height: 400px;
     margin-left: -20px;
     position: fixed;
     top: 0px;
@@ -30,21 +30,20 @@ footer a {
     text-decoration: none;
 }
 
+
 .all-recipes li {
-    list-style-image: url("images/star.png");
+    /*list-style-image: url("images/star.png");*/
     list-style: none;
     margin-left: 40px;
-    
+     
 }
 
 .all-recipes a {
 text-decoration: none;
 color:rgb(17, 89, 110);
-
-    
-    
+border-bottom: 2px dotted rgb(17, 89, 110);
+   
 }
-
 
 a:hover {
     color: rgb(110, 27, 27);
