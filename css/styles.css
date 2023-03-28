@@ -29,7 +29,7 @@ nav {
 
 nav li {
     list-style: none;
-    font-family: 'Rubik Moonrocks', cursive;
+    font-family: 'Rubik Dirt', cursive;
     font-size: 1.3em;
     margin-bottom: -20px;
     margin-left: -20px;
@@ -53,16 +53,16 @@ a.odin-link{
 
 
 .odin {
-    font-family: 'Rubik Moonrocks', cursive;
+    font-family: 'Rubik Dirt', cursive;
     font-size: 4.0em;
     margin-top: 20px;
     margin-bottom: 15px;
 }
 
 h1{
+    font-family: 'Rubik Dirt', cursive;
     text-align: center;
     font-size: 2.8em;
-    font-family: 'Rubik Moonrocks', cursive;
     font-weight: 400;
     margin-bottom: -10px;
     margin-top: 50px;
@@ -141,13 +141,17 @@ p {
 .index .all-recipes li {
     list-style: none;
     margin-left: 40px;
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 30px;
+    text-indent: -15px;
+    padding: 5px 0 
      
 }
 
 .index .all-recipes a {
 text-decoration: none;
-color:rgb(17, 89, 110);
-border-bottom: 2px dotted rgb(17, 89, 110);
+color:rgb(64, 64, 65);
+border-bottom: 2px dotted rgb(64, 64, 65);
    
 }
 
