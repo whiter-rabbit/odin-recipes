@@ -1,3 +1,4 @@
+ /*
 html {
    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Odin_riding_Sleipnir.jpg/464px-Odin_riding_Sleipnir.jpg?20061220184018);
    background-repeat: no-repeat;
@@ -7,44 +8,51 @@ html {
 }
 
 
-.odin-background {
-    background-image: linear-gradient(rgba(224, 228, 235, 1)50%, rgba(224, 228, 235, 0)100%);
-    width: 590px;
-    height: 400px;
-    margin-left: -20px;
-    position: fixed;
-    top: 0px;
-
-}
-
-footer p {
-    color: black;
-    background: rgba(255, 255, 255, .6);
+.index footer .center {
+    background: rgba(255, 255, 255, .7);
     font-size: .8em;
     position: fixed;
     bottom: 5px;
     width: 500px;
 }
 
-footer a {
+.index footer .bottom-right{
+    font-size: .8em;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+
+.index footer a {
     text-decoration: none;
 }
 
 
-.all-recipes li {
-    /*list-style-image: url("images/star.png");*/
+.index .all-recipes li {
     list-style: none;
     margin-left: 40px;
      
 }
 
-.all-recipes a {
+.index .all-recipes a {
 text-decoration: none;
 color:rgb(17, 89, 110);
 border-bottom: 2px dotted rgb(17, 89, 110);
    
 }
 
-a:hover {
+.index a:hover {
     color: rgb(110, 27, 27);
 }
+
+
+
+
+   background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Odin_riding_Sleipnir.jpg/464px-Odin_riding_Sleipnir.jpg?20061220184018), 
+   url("../images/fog-one.jpg"), 
+   url("../images/cloud-two.png"); 
+   background-repeat: no-repeat, no-repeat, no-repeat ;
+   background-attachment: fixed, fixed, fixed;
+   background-position: bottom, bottom, top;
+   background-size: 590px, 100vw, 590px;

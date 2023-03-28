@@ -1,15 +1,21 @@
 html {
-    background-color: hsl(207, 8%, 80%);
+    background-color: hsl(0 0% 0%);
     box-sizing: border-box;
-
+    background-image: url("../images/cloud-two.png"),
+    url("../images/fog-one.jpg"); 
+    background-repeat:  no-repeat, no-repeat ;
+    background-attachment:  fixed, fixed;
+    background-position: 50% -370px, bottom ;
+    background-size: 800px, 100vw, ; 
 }
 
 body {
-    background-color:  hsl(220 20% 90%);
+    
     font-family: Arial, Helvetica, sans-serif;
     width: 550px;
     margin: 0 auto;
     padding: 20px;
+
     
 }
 
@@ -102,4 +108,61 @@ li {
 p { 
     margin-left:40px;
     margin-right: 20px;
+}
+
+.index  footer .center {
+    background: rgba(255, 255, 255, .7);
+    font-size: .8em;
+    position: fixed;
+    bottom: 5px;
+    width: 500px;
+}
+
+.index footer .bottom-right{
+    font-size: .8em;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+.index footer .top-right{
+    font-size: .8em;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+}
+
+
+.index footer a {
+    text-decoration: none;
+}
+
+
+.index .all-recipes li {
+    list-style: none;
+    margin-left: 40px;
+     
+}
+
+.index .all-recipes a {
+text-decoration: none;
+color:rgb(17, 89, 110);
+border-bottom: 2px dotted rgb(17, 89, 110);
+   
+}
+
+.index a:hover {
+    color: rgb(110, 27, 27);
+}
+
+.index footer .top-right a:link {
+    color: rgb(202, 198, 198);
+ }
+
+ .index footer .top-right  a:visited {
+    color: rgb(202, 198, 198);
+}
+
+.index footer .top-right a:hover {
+    color: rgb(107, 104, 104);
 }
